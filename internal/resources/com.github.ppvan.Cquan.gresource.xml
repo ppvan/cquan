@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gresources>
+    <gresource prefix="/com/github/ppvan/Cquan/">
+    <file>style.css</file>
+    <file>window.ui</file>
+    </gresource>
+</gresources>

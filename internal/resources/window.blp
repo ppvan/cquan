@@ -1,0 +1,35 @@
+using Gtk 4.0;
+using Adw 1;
+
+Adw.ApplicationWindow main-window {
+    default-width: 900;
+    default-height: 600;
+    width-request: 900;
+    height-request: 600;
+    title: "Cquan";
+
+    Adw.ToolbarView {
+        [top]
+        Adw.HeaderBar {}
+
+        content: Box {
+            orientation: vertical;
+
+            Box {
+                orientation: horizontal;
+
+                Entry entry {}
+
+                Button add {
+                    label: "Add";
+                }
+            }
+
+            ListView todos {
+                model: Gtk.SingleSelection todos_model {
+                  
+                };
+            }
+        };
+    }
+}

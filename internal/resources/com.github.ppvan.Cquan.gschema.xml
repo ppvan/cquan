@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="cquan">
+	<schema id="com.github.ppvan.cquan" path="/com/github/ppvan/cquan/">
+        <key name="window-width" type="i">
+            <default>1200</default>
+            <summary>Window width</summary>
+            <description>
+                Saved window width.
+            </description>
+        </key>
+
+        <key name="window-height" type="i">
+            <default>900</default>
+            <summary>Window height</summary>
+            <description>
+                Saved window height.
+            </description>
+        </key>
+
+        <key name="query-limit" type="i">
+            <default>200</default>
+            <summary>Select query limit</summary>
+            <description>
+                The limit of select query in the query, get 500 rows max for each query
+            </description>
+        </key>
+
+        <key name="query-timeout" type="i">
+            <default>5</default>
+            <summary>Time out before cancel a statement</summary>
+            <description>
+                If query's time is larger than this value (in seconds), application will cancel it.
+            </description>
+        </key>
+
+        <key name="connection-timeout" type="i">
+            <default>5</default>
+            <summary>Timeout for connect to database</summary>
+            <description>
+                If time to connect to database is larger than this value (in seconds), application will cancel it.
+            </description>
+        </key>
+
+        <key name="editor-font" type="s">
+            <default>"Source Code Pro 12"</default>
+            <summary>Editor font</summary>
+            <description>
+                Application Editor font.
+            </description>
+        </key>
+
+        <key name="color-scheme" type="i">
+            <default>0</default>
+            <summary>System color scheme</summary>
+            <description>
+                Dark/Light theme follow system or not
+            </description>
+        </key>
+
+        <key name="auto-uppercase" type="b">
+            <default>true</default>
+            <summary>Auto UpperCase keywords</summary>
+            <description>
+                Auto UpperCase keywords like SELECT, FROM, WHERE, etc.
+            </description>
+        </key>
+
+        <key name="auto-completion" type="b">
+            <default>false</default>
+            <summary>Auto Completion </summary>
+            <description>
+                Auto Completion for keywords, table names, column names, etc.
+            </description>
+        </key>
+
+        <key name="auto-exec-history" type="b">
+            <default>false</default>
+            <summary>Auto Execute History Query</summary>
+            <description>
+                Auto Execute History Query when activated, instead of showing the query in the editor.
+            </description>
+        </key>
+	</schema>
+</schemalist>

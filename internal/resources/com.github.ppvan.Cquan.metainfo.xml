@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.github.ppvan.Cquan</id>
+
+    <name>Cquan</name>
+    <summary>A minimal SQL client</summary>
+
+    <metadata_license>MIT</metadata_license>
+    <project_license>GPL-3.0-or-later</project_license>
+
+    <recommends>
+        <display_length compare="ge">960</display_length>
+    </recommends>
+
+    <description>
+        <p>Cquan is a modern, yet another Postgres SQL client, build with GTK 4 and Libadwaita</p>
+        <ul>
+            <li>Create connection, import, export connection to database</li>
+            <li>View tables, scshema, views, columns, indexes, foreign key</li>
+            <li>Execute query, query history</li>
+        </ul>
+
+        <p>
+            This project is not a part of or affiliated with PostgreSQL.
+        </p>
+    </description>
+    <content_rating type="oars-1.1" />
+    <provides>
+        <binary>cquan</binary>
+    </provides>
+    <url type="homepage">https://github.com/ppvan/cquan</url>
+    <url type="bugtracker">https://github.com/ppvan/cquan/issues</url>
+
+    <developer id="io.github.ppvan">
+        <name>Phạm Văn Phúc</name>
+        <url>https://github.com/ppvan</url>
+    </developer>
+    <launchable type="desktop-id">com.github.ppvan.Cquan.desktop</launchable>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/ppvan/psequel/main/screenshots/screenshot1.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/ppvan/psequel/main/screenshots/screenshot2.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/ppvan/psequel/main/screenshots/screenshot3.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/ppvan/psequel/main/screenshots/screenshot4.png</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="0.2.0" date="2024-03-31">
+            <description>
+                <p>UI improvements</p>
+                <p>Copiable query result</p>
+                <p>Dataview performance gain</p>
+                <p>Robust CSV exporter</p>
+            </description>
+        </release>
+        <release version="0.1.9" date="2024-02-18">
+            <description>
+                <p>Clean up and bug fix</p>
+                <p>Show number of tables and views</p>
+            </description>
+        </release>
+        <release version="0.1.5" date="2023-08-15">
+            <description>
+                <p>Basic autocompletion</p>
+            </description>
+        </release>
+        <release version="0.1.4" date="2023-08-11">
+            <description>
+                <p>First Release</p>
+            </description>
+        </release>
+    </releases>
+</component>
